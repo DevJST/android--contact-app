@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pl.lodz.uni.math.contactapp" >
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Contacts"
+            android:label="@string/title_activity_contacts" >
+        </activity>
+        <activity
+            android:name=".AddNewContact"
+            android:label="@string/title_activity_add_new_contact" >
+        </activity>
+        <activity
+            android:name=".ContactEntry"
+            android:label="@string/title_activity_contact_entry" >
+        </activity>
+        <activity
+            android:name=".EditContact"
+            android:label="@string/title_activity_edit_contact" >
+        </activity>
+        <activity
+            android:name=".AddContactIM"
+            android:label="@string/title_activity_add_contact_im" >
+        </activity>
+        <activity
+            android:name=".EditContactIM"
+            android:label="@string/title_activity_edit_contact_im" >
+        </activity>
+        <activity
+            android:name=".ContactInfo"
+            android:label="@string/title_activity_contact_info" >
+        </activity>
+        <activity
+            android:name=".AddContactImage"
+            android:label="@string/title_activity_add_contact_image" >
+        </activity>
+        <activity
+            android:name=".EditContactImage"
+            android:label="@string/title_activity_edit_contact_image" >
+        </activity>
+        <activity
+            android:name=".ContactImage"
+            android:label="@string/title_activity_contact_image" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Contact app</string>
+
+    <!-- global -->
+    <string name="cancel_button">Cancel</string>
+
+    <!-- welcome screen -->
+    <string name="welcome_message">Contact app</string>
+    <string name="start_button">Start</string>
+
+    <!-- contacts -->
+    <string name="add_button">Add new</string>
+    <string name="exit_button">Exit</string>
+
+    <!-- add/edit contact -->
+    <string name="first_name">First_name:</string>
+    <string name="last_name">Last_name:</string>
+    <string name="phone_number">Phone:</string>
+    <string name="email_address">Email:</string>
+
+    <string name="next_button">Next</string>
+
+    <!-- add/edit IM's -->
+    <string name="gg">GG:</string>
+    <string name="webEx">WebEx:</string>
+    <string name="skype">Skype:</string>
+
+    <!-- add/edit image -->
+    <string name="save_button">Save</string>
+
+    <!-- contact info -->
+    <string name="back">Back</string>
+
+    <!-- other -->
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_contacts">Contacts</string>
+    <string name="title_activity_add_new_contact">AddNewContact</string>
+    <string name="title_activity_contact_entry">ContactEntry</string>
+    <string name="title_activity_edit_contact">EditContact</string>
+    <string name="title_activity_add_contact_im">AddContactIM</string>
+    <string name="title_activity_edit_contact_im">EditContactIM</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_contacts_info">ContactsInfo</string>
+    <string name="title_activity_contact_info">ContactInfo</string>
+    <string name="title_activity_add_contact_image">AddContactImage</string>
+    <string name="title_activity_edit_contact_image">EditContactImage</string>
+    <string name="title_activity_contact_image">ContactImage</string>
+
+
+</resources>
